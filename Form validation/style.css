@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    font-family: sans-serif;
+    background:linear-gradient(to right,rgb(105, 105, 231),pink);
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: rgba(170, 170, 170,20%);
+   
+    border-radius: 5px;
+    border: 1px solid rgb(177, 177, 177);
+    width: 400px;
+    box-shadow: 10px 10px 2px rgba(0,0,0,0.3);
+    overflow: hidden;
+    max-width: 100%;
+ 
+}
+.header{
+
+    text-align: center;
+    padding: 10px 40px; 
+}
+h1{
+    margin: 0;padding-top: 20px;
+}
+.form{
+ 
+    padding: 30px 40px;
+}
+.formcontrol{
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.formcontrol label{
+    display: inline-block;
+    margin: 5px;
+}
+
+.formcontrol input{
+    border: 2px solid rgb(212, 209, 209);
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;       
+}
+
+.formcontrol input:focus{
+   
+    border-color: black;
+
+}
+.formcontrol.success input{
+    border-color: rgb(3, 156, 3);
+}
+
+.formcontrol.error input{
+    border-color: red;
+}
+.formcontrol i{
+    visibility: hidden;
+    position: absolute;
+    top: 45px;right: 10px;
+}
+.formcontrol.success  .fa-check-circle{
+    color: rgb(3, 156, 3) ;
+    visibility: visible;
+}
+.formcontrol.error .fa-exclamation-circle{
+    color:red;
+    visibility: visible;
+
+}
+.formcontrol small{
+    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+ 
+}
+.iderrors{
+
+    color: red;
+}
+.formcontrol.error small{
+    color: red;
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+button{
+   background: rgb(7, 6, 6);
+    border: none;
+    border-radius:5px;
+    box-shadow: 5px 5px 5px 0px grey;
+color: white;
+padding: 10px 20px;
+margin-left: 125px;
+display:block
+}
+
+.formcontrol .lable{
+
+}
